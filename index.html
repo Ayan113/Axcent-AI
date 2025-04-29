@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axcent Ai-Your real time accent translator!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <h1><b>Axcent Ai</b></h1>
+        <h3>Change accents in real-time !</h3>
+
+
+<textarea id="sentenceInput" type ="text" placeholder="Type your sentence here...."></textarea>
+    <select id="accentSelect">
+        <option value="">Select Accent</option>
+        <option value="indian">Indian</option>
+        <option value="american">American</option>
+        <option value="arabic">Arabic</option>
+        <option value="chinese">Chinese</option>
+        <option value="japanese">Japanese</option>
+        <option value="french">French</option>
+        <option value="german">German</option>
+        <option value="italian">Italian</option>
+        <option value="korean">Korean</option>
+    </select> 
+    <button id="convertBtn">Convert</button>
+    <div id="audioPlayer">
+    <h2>Play Audio</h2>
+    <audio id="audio" style="display:none;" controls></audio>
+    </div>
+    </div>
+
+<footer>
+    <div class="footer-section">
+        <h2>About Axcent Ai</h2>
+        <p>Axcent Ai helps you to convert any text into any accent type of the world !</p>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2025 Axcent Ai. All rights reserved.</p>
+        <p>Made with love by <em>Ayan Chatterjee</em></p>
+    </div>
+</footer> 
+</div>  
+<script src="script.js"></script>
+</body>
+
+</html>
